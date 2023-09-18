@@ -1,0 +1,32 @@
+{
+  "transitions": [
+    {
+      "id": 1,
+      "name": "Lojas Americanas",
+      "value": 25.99,
+      "content": "Compras de doces nas americanas"
+    },
+    {
+      "id": 2,
+      "name": "Casas Bahia",
+      "value": 250,
+      "content": "Compra de microondas Casas Bahia"
+    },
+    {
+      "id": 3,
+      "name": "Casas Pedro",
+      "value": 32.5,
+      "content": "Compra de Temperos "
+    },
+    {
+      "name": "Riachuelo",
+      "value": 130,
+      "content": "Comprando utensilios",
+      "id": 4
+    }
+  ],
+  "user": {
+    "name": "Enzo Melo Maciel",
+    "balance": 1000
+  }
+}

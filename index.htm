@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financas Pessoais</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main >
+        <section id="user">
+                <h2>User</h2>
+        </section>
+        <form action="http://localhost:3000/transitions" method="post">
+          <h2>Adicionar uma transação</h2>
+          <label for="name">Nome:</label>
+          <br>
+          <input type="text" id="name" name="name">
+          <br>
+          <label for="value">Valor:</label>
+          <br>
+          <input type="text" id="value" name="value">
+          <br>
+          <label for="content">Descricao:</label>
+          <br>
+          <input type="text" id="content" name="content">
+          <br>
+          <button>Salvar</button>
+        </form>
+        <section id="form-remove">
+          <h2>Remover Transacao</h2>
+          <label for="id-remove">ID:</label>
+          <input type="text" name="id-remove" id="id-remove">
+          <button type="button" id="remove">Remover</button>
+          <h2>Alterar Transacao</h2>
+          <label for="id">ID:</label>
+          <input type="text" name="id" id="id">
+          <br>
+          <label for="valor:">Valor</label>
+          <input type="text" name="valor" id="valor">
+          <br>
+          <button type="button">Alterar</button>
+        </section>
+        <div>
+          <h2>Transações</h2>
+          <section id="transitions"></section>
+        </div>
+      </main>
+    
+      <script src="index.js"></script>
+</body>
+</html>
